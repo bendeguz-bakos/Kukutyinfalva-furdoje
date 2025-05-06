@@ -1,0 +1,90 @@
+body{
+    background-image: url(/kepek/e-commerce-plage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+.piktogram{
+    max-width: 2.7rem;
+}
+ul{
+    list-style-type: none;
+}
+.fejlecp{
+    size: 200%;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.feja{
+    text-decoration: none;
+    margin: auto;
+}
+.biglogo{
+    width: 100px;
+    margin: auto;
+}
+header{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 80px;
+    padding: 1rem;
+    margin: auto;
+    position: sticky;
+    top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.vegig{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.idezet{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.hetter{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 80px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  footer{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
