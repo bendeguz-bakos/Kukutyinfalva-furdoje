@@ -55,3 +55,12 @@ a{
     margin-bottom: 20px;
     font-family: cursive;
 }
+.hetter{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 80px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
