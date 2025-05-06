@@ -2,6 +2,7 @@ body{
     background-image: url(./kepek/e-commerce-plage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5px;
 }
 .piktogram{
     max-width: 2.7rem;
@@ -19,21 +20,24 @@ ul{
     margin: auto;
 }
 .biglogo{
-    width: 170px;
+    width: 100px;
     margin: auto;
 }
 header{
-    background-color: rgba(255,255,255,1);
-    width: 80%;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
     border-radius: 80px;
     padding: 1rem;
     margin: auto;
+    position: sticky;
+    top: 10px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 5px;
 }
 .vegig{
     width: 100%;
@@ -41,4 +45,13 @@ nav{
 a{
     text-decoration: none;
     color: black;
+}
+.idezet{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: cursive;
 }
