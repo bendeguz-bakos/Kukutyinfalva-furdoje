@@ -32,6 +32,7 @@ header{
     margin: auto;
     position: sticky;
     top: 10px;
+    z-index: 9999999;
 }
 nav{
     display: flex;
@@ -53,14 +54,23 @@ a{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family: 'Lucida Handwriting', cursive;
 }
 .hetter{
     background-color: rgb(255, 255, 255);
     width: 90%;
-    border-radius: 80px;
+    border-radius: 10px;
     padding: 1rem;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.headline{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
