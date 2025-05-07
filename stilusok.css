@@ -1,29 +1,36 @@
-body{
-    background-image: url(./kepek/e-commerce-plage.jpg);
+
+body {
+    background-image: url(/kepek/e-commerce-plage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px;
 }
-.piktogram{
+
+.piktogram {
     max-width: 2.7rem;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-.fejlecp{
+
+.fejlecp {
     size: 200%;
     font-weight: bolder;
     letter-spacing: 1px;
 }
-.feja{
+
+.feja {
     text-decoration: none;
     margin: auto;
 }
-.biglogo{
+
+.biglogo {
     width: 100px;
     margin: auto;
 }
-header{
+
+header {
     margin-top: 10px;
     background-color: rgb(255, 255, 255);
     width: 90%;
@@ -34,20 +41,24 @@ header{
     top: 10px;
     z-index: 9999999;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5px;
 }
-.vegig{
+
+.vegig {
     width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.idezet{
+
+.idezet {
     font-size: 1.5rem;
     font-weight: bolder;
     color: rgb(0, 0, 0);
@@ -56,7 +67,8 @@ a{
     margin-bottom: 20px;
     font-family: 'Lucida Handwriting', cursive;
 }
-.hetter{
+
+.hetter {
     background-color: rgb(255, 255, 255);
     width: 90%;
     border-radius: 10px;
@@ -65,12 +77,33 @@ a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.headline{
+
+.headline {
     font-size: 2rem;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
 }
