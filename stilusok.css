@@ -2,8 +2,8 @@ body {
     background-image: url(/kepek/e-commerce-plage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    font-size: larger;
+    font-weight: bolder;
     
 }
 
@@ -40,7 +40,7 @@ nav{
     background-color: rgb(255, 255, 255);
     width: 15%;
     border-radius: 8px;
-    padding: 1px;
+    padding: 1rem;
     margin: auto;
     position: sticky;
     top: 10px;
@@ -49,9 +49,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
+    padding-bottom: 0.7rem;
+    margin-left: 1rem;
 }
 .vegig {
     width: 100%;
@@ -113,6 +112,10 @@ footer {
   margin-top: auto;
   background-color: rosybrown;
   max-height: 100px;
+  float: left;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 20px;
 }
 .elvalaszto{
     border-top: 5px solid #000000;
@@ -130,6 +133,25 @@ footer {
   }
 main {
     max-width: 83%;
-
     margin-left: auto;
+}
+.szovkep{
+    float: right;
+    max-height: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.szovkepb{
+    float: left;
+    max-height: 300px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.tort{
+    font-size: xx-large;
+}
+.bal{
+    float: right;
+   
 }
