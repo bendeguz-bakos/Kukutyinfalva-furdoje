@@ -28,7 +28,7 @@ ul {
 header {
     background-color: rgb(255, 255, 255);
     width: 100%;
-  
+
     padding: 1rem;
     margin: auto;
     margin-bottom: 20px;
@@ -62,7 +62,7 @@ a {
 }
 
 .idezet {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-align: center;
