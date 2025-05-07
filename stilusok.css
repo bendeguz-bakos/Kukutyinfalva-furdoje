@@ -79,9 +79,6 @@ a {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
-    
 }
 
 .headline {
@@ -93,7 +90,7 @@ a {
     margin-bottom: 20px;
 }
 
-table, th, td {
+table.tr, th.tr, td.tr {
     border: 1px solid black;
 }
 table {
@@ -136,7 +133,7 @@ main {
     margin-left: auto;
 }
 
-tr:nth-child(even) {
+table.tr tr:nth-child(even) {
     background-color: #8ac6ff;}
 
 .s{
@@ -163,4 +160,23 @@ tr:nth-child(even) {
 .bal{
     float: right;
    
+}
+.kkep{
+    max-height: 500px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+.szkop{
+    text-align: center;
+}
+.null{
+    background-color: transparent !important;	
+    border: none !important;
+    
+}
+.null:nth-child(even) {
+    background-color: transparent !important;
+    border: none !important;
+
 }
