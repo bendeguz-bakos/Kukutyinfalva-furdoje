@@ -133,3 +133,12 @@ main {
 
     margin-left: auto;
 }
+
+tr:nth-child(even) {
+    background-color: #8ac6ff;}
+
+.s{
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
