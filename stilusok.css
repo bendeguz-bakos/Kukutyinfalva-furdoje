@@ -206,3 +206,12 @@ li{
     text-shadow: 3px 3px 7px white;
 
 }
+td,th,table,img{
+    border: none;
+}
+.medkep{
+    width: 30rem;
+    border-radius: 10px;
+    border: 3px solid black;
+   float: left;
+}
