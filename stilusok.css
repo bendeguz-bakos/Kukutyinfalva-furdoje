@@ -1,9 +1,10 @@
-
 body {
     background-image: url(/kepek/e-commerce-plage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5px;
+    
+    
+    
 }
 
 .piktogram {
@@ -14,12 +15,6 @@ ul {
     list-style-type: none;
 }
 
-.fejlecp {
-    size: 200%;
-    font-weight: bolder;
-    letter-spacing: 1px;
-}
-
 .feja {
     text-decoration: none;
     margin: auto;
@@ -27,28 +22,37 @@ ul {
 
 .biglogo {
     width: 100px;
-    margin: auto;
+    
+    margin:10px;
 }
-
 header {
-    margin-top: 10px;
     background-color: rgb(255, 255, 255);
-    width: 90%;
-    border-radius: 80px;
+    width: 100%;
+    
     padding: 1rem;
+    margin: auto;
+    
+
+
+}
+nav{
+    
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    border-radius: 8px;
+    padding: 1px;
     margin: auto;
     position: sticky;
     top: 10px;
     z-index: 9999999;
-}
-
-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
-
 .vegig {
     width: 100%;
 }
@@ -59,7 +63,7 @@ a {
 }
 
 .idezet {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -70,12 +74,15 @@ a {
 
 .hetter {
     background-color: rgb(255, 255, 255);
-    width: 90%;
+    width: 99%;
     border-radius: 10px;
     padding: 1rem;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    
+    
+    
 }
 
 .headline {
@@ -90,11 +97,11 @@ a {
 table, th, td {
     border: 1px solid black;
 }
-
 table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 th, td {
@@ -103,7 +110,26 @@ th, td {
 }
 
 footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
+  margin-top: auto;
+  background-color: rosybrown;
+  max-height: 100px;
+}
+.elvalaszto{
+    border-top: 5px solid #000000;
+}
+
+.sorba{
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  
+  .tablazatoszlopba {
+    flex: 50%;
+    padding: 5px;
+  }
+main {
+    max-width: 83%;
+
+    margin-left: auto;
 }
