@@ -180,3 +180,29 @@ table.tr tr:nth-child(even) {
     border: none !important;
 
 }
+
+li{
+    font-size: larger;
+}
+
+.k{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 3px 7px white;
+}
+
+.f{
+    font-weight: bolder;
+    color: red;
+}
+
+.v{
+    text-decoration-line: underline;
+}
+
+.bg{
+    background-image: url(/kepek/emoji-de-echo-removebg-preview.png);
+    text-shadow: 3px 3px 7px white;
+
+}
