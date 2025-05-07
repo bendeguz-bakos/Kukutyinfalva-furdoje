@@ -135,6 +135,15 @@ main {
     max-width: 83%;
     margin-left: auto;
 }
+
+tr:nth-child(even) {
+    background-color: #8ac6ff;}
+
+.s{
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
 .szovkep{
     float: right;
     max-height: 300px;
