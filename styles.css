@@ -1,10 +1,19 @@
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(/kepek/e-commerce-plage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-size: larger;
     font-weight: bolder;
-    
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .piktogram {
@@ -22,36 +31,51 @@ ul {
 
 .biglogo {
     width: 100px;
-    
-    margin:10px;
+
+    margin: 10px;
 }
+
 header {
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width: 100%;
     border-bottom-right-radius: 8px;
     padding: 1rem;
-    margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     border-bottom-left-radius: 8px;
 
 }
-nav{
 
+.header-nav-wrapper {
     background-color: rgb(255, 255, 255);
-    width: 15%;
     border-radius: 8px;
-    padding: 1rem;
-    margin: auto;
-    position: sticky;
-    top: 10px;
-    z-index: 9999999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: left;
-    padding-bottom: 0.7rem;
-    margin-left: 1rem;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
+
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
 .vegig {
     width: 100%;
 }
@@ -73,12 +97,12 @@ a {
 
 .hetter {
     background-color: rgb(255, 255, 255);
-    width: 99%;
+    width: 100%;
     border-radius: 10px;
     padding: 1rem;
-    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .headline {
@@ -90,143 +114,167 @@ a {
     margin-bottom: 20px;
 }
 
-table.tr, th.tr, td.tr {
+table.tr,
+th.tr,
+td.tr {
     border: 1px solid black;
 }
+
 table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     text-align: center;
 }
 
 footer {
- 
-  background-color: rgb(91, 91, 91);
-  max-height: 100px;
-
-  width: 100%;
-  padding: 1rem;
-  margin-top: 20px;
-  float: right;
+    background-color: rgb(91, 91, 91);
+    max-height: 100px;
+    width: 100vw;
+    padding: 1rem;
+    margin-top: auto;
+    margin-left: calc(-50vw + 50%);
 }
-.elvalaszto{
+
+.elvalaszto {
     border-top: 5px solid #000000;
 }
 
-.sorba{
+.sorba {
     display: flex;
-    margin-left:-5px;
-    margin-right:-5px;
-  }
-  
-  .tablazatoszlopba {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.tablazatoszlopba {
     flex: 50%;
     padding: 5px;
-  }
-main, header {
-    max-width: 83%;
-    margin-left: auto;
+}
+
+main,
+header {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    flex: 1;
 }
 
 table.tr tr:nth-child(even) {
-    background-color: #8ac6ff;}
+    background-color: #8ac6ff;
+}
 
-.s{
+.s {
     color: gray;
     font-style: italic;
     font-size: small;
 }
-.szovkep{
+
+.szovkep {
     float: right;
     max-height: 300px;
     border-radius: 10px;
     border: 3px solid black;
+    margin: 10px;
 }
-.szovkepb{
+
+.szovkepb {
     float: left;
     max-height: 300px;
     margin: 10px;
     border: 3px solid black;
     border-radius: 10px;
 }
-.tort{
+
+.tort {
     font-size: xx-large;
 }
-.bal{
-    float: right;
-   
+
+.bal {
+    float: none !important;
 }
-.kkep{
+
+.kkep {
     max-height: 500px;
     border-radius: 10px;
     border: 3px solid black;
     margin: 10px;
 }
-.szkop{
+
+.szkop {
     text-align: center;
 }
-.null{
-    background-color: transparent !important;	
+
+.null {
+    background-color: transparent !important;
     border: none !important;
-    
+
 }
+
 .null:nth-child(even) {
     background-color: transparent !important;
     border: none !important;
 
 }
 
-li{
+li {
     font-size: larger;
 }
 
-.k{
+.k {
     text-align: center;
     font-weight: bold;
     color: red;
     text-shadow: 3px 3px 7px white;
 }
 
-.f{
+.f {
     font-weight: bolder;
     color: red;
 }
 
-.v{
+.v {
     text-decoration-line: underline;
 }
 
-.bg{
+.bg {
     background-image: url(/kepek/emoji-de-echo-removebg-preview.png);
     text-shadow: 3px 3px 7px white;
 
 }
-td,th,table,img{
+
+td,
+th,
+table,
+img {
     border: none;
 }
-.medkep{
+
+.medkep {
     width: 30rem;
     border-radius: 10px;
     border: 3px solid black;
-   float: left;
+    float: left;
 }
-.vel{
-    margin: auto;
-    text-align: center;
+
+.vel {
+    display: inline-block;
+    margin: 5px;
     font-size: xx-large;
     font-weight: bolder;
-    text-align: center;
-    margin-right: 10px;
+    clear: both;
 }
+
 textarea {
-  resize: none;
+    resize: none;
 }
+
 .hetterv {
     background-color: rgb(255, 255, 255);
     width: 60%;
@@ -238,6 +286,7 @@ textarea {
     float: right;
     margin-right: 20px;
 }
+
 .hettervv {
     background-color: rgb(255, 255, 255);
     width: 60%;
@@ -249,16 +298,18 @@ textarea {
     float: right;
     margin-right: 20px;
 }
-.oriasi{
+
+.oriasi {
     font-size: 250%;
     font-weight: bolder;
     margin: 10px;
 }
-.jobb
-{
+
+.jobb {
     float: right;
-width: 60%;
+    width: 60%;
 }
-th{
+
+th {
     font-size: 200%;
 }
