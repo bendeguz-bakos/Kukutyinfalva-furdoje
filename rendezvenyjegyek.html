@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/kepek/5611083.png">
+    <title>Jegyvasarlas-Rendezvenyekre</title>
+
+</head>
+
+<body>
+    <div class="header-nav-wrapper">
+        <header>
+            <div class="row vegig">
+                <div class="col-md"><img src="/kepek/ChatGPT Image 2025. ápr. 28. 13_15_53.png" class="biglogo"></div>
+                <div class="col-md">
+                    <p class="idezet">Csobbanj velünk a nyár örömébe</p>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="/index.html" class="">
+                        <p class="fejlecp "><img src="/kepek/home_738822.png" class="piktogram">Kezdőlap</p>
+                    </a></li>
+                <li><a href="/medencek.html" class="">
+                        <p class="fejlecp "><img src="/kepek/swimming-pool_17034796.png" class="piktogram">Medencék</p>
+                    </a></li>
+                <li><a href="/jegyarak.html" class="">
+                        <p class="fejlecp "><img src="/kepek/price-tag_6444805.png" class="piktogram">Jegyárak</p>
+                    </a></li>
+                <li><a href="/szabalyzat.html" class="">
+                        <p class="fejlecp "><img src="/kepek/test_2893354.png" class="piktogram">Szabályzat</p>
+                    </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="hetter">
+        <h1 class="">Jegyvasarlas rendezvenyekre</h1>
+        <select id="lista">
+            <option value="6000">Érzékek Éjszakája</option>
+            <option value="5500">Ősi Gyógyítás Nyomában</option>
+            <option value="4500">Hanghullámok Harmóniája</option>
+            <option value="6200">Éjszakai Aromaélmény</option>
+            <option value="4700">Hang- és Vízharmónia</option>
+            <option value="5800">Középkori Fürdőtitkok</option>
+        </select>
+
+        <label for=".darab">Jegyek szama:</label>
+        <input type="number" min="1" class="darab">
+        <br>
+        <button type="button" class="btn btn-info" onclick="alerts()">Vasarlas</button>
+        <br>
+        <p class="ar">Vegso ar: <b><span class="vegsoAr">0</span></b> Ft</p>
+
+    </main>
+
+
+    <script>
+        let db = document.querySelector(".darab")
+        let valasztott = document.querySelector("#lista")
+        let ar = 0
+        function szamolj() {
+            let dbnumb = Number(db.value)
+            ar = Number(valasztott.value)
+            let vegsoAr = ar * dbnumb
+            document.querySelector(".vegsoAr").innerHTML = vegsoAr
+
+        }
+
+        function alerts() {
+            alert("Sikeres Vasarlas")
+        }
+        db.addEventListener("input", szamolj);
+        valasztott.addEventListener("change", szamolj);
+    </script>
+</body>
+<footer class="text-muted">
+    keszitette:Bakos Bendeguz es Nagy Nandor
+</footer>
+
+</html>
