@@ -152,8 +152,12 @@ footer {
 }
 
 .tablazatoszlopba {
-    flex: 50%;
+    flex: 70%;
     padding: 5px;
+}
+
+table.balra {
+    width: 100%;
 }
 
 main,
