@@ -351,3 +351,8 @@ input[type="number"] {
 .ar {
     margin-top: 20px;
 }
+
+.jelzes {
+    text-align: center;
+    border-radius: 2rem;
+}
